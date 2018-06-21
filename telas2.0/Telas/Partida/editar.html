@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title> FIFINHA </TITLE>
+		<link rel="stylesheet" type="text/css" href="partidaCss.css" />
+	</head>
+	<body background="partida.jpg">
+		<form action="\Fifinha\insert\insertPartida.php" method="post">
+			<div id="titulo">
+				<label> Editar Partida</label>
+			</div>	
+			<div id="partida">
+					<label>ID</label>
+				<select name="ID">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				</select>
+                <label>Liga</label>
+				<select name="liga">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				</select>
+				<label>Clube Mandante</label>
+				<select name="mandante">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				</select>
+				<label>Clube Visitante</label>
+				<select name="visitante">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				</select>
+				<label>Data da Partida</label>
+                		<input type="text" name="data"/>
+				<button type="submit" name="submit">Enviar</button>
+            </div>
+		</form>
+	</body>
+</html>
